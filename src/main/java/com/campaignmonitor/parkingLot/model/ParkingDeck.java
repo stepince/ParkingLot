@@ -4,6 +4,7 @@ import java.util.List;
 
 public class ParkingDeck {
 
+    int capacity;
     Address addr;
     List<Floor> floors;
     List<Exit> exits;
