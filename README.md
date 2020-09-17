@@ -34,8 +34,7 @@
    
 ## Deployment
   There are a few options for deployment. A relational database should be sufficient.
-  You can archive old data. If there is a need to look at historical data in realtime
-  then you can use a nosql solution. 
+  You can archive old data, or you can partition your data. 
   
   ### AWS Web hosting/cloud.
     This solution is reliable, scalable
