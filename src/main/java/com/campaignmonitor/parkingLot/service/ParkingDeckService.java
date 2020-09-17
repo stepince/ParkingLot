@@ -40,6 +40,10 @@ public class ParkingDeckService {
     public List<Space> findAllSpaces(){
         return null;
     }
+    public List<Space> findAllOvertimeSpaces(){
+        return null;
+    }
+
     public List<Space> findAllSpacesByFloor( Floor floor){
         return null;
     }

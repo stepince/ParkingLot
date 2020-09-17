@@ -33,4 +33,8 @@ class PaymentServiceTest {
     @Test
     void findAllPaymentTransactionByDates() {
     }
+
+    @Test
+    void findAllPaymentTransactionsByCustomer() {
+    }
 }

@@ -21,13 +21,17 @@ public class PaymentService {
     public PaymentTransaction findPaymentTransactionById(Integer id){
         return null;
     }
-    public List<PaymentTransaction> findAllPaymentTransaction(){
+    public List<PaymentTransaction> findAllPaymentTransactions(){
         return null;
     }
-    public List<PaymentTransaction> findAllPaymentTransactionByDate( Date date){
+    public List<PaymentTransaction> findAllPaymentTransactionsByCustomer(){
         return null;
     }
-    public List<PaymentTransaction> findAllPaymentTransactionByDates( Date to, Date from){
+
+    public List<PaymentTransaction> findAllPaymentTransactionsByDate( Date date){
+        return null;
+    }
+    public List<PaymentTransaction> findAllPaymentTransactionsByDates( Date to, Date from){
         return null;
     }
 
