@@ -16,7 +16,7 @@
    
 ### com.com.campaignmonitor.parkingLot.controller
    This package contains MVC Controller classes.
-   The can be RestAPI microservices implementations.
+   The can be Restful API microservices implementations.
    
       
 ## Testing
@@ -31,4 +31,37 @@
 ### The controller 
     The controllers can be tested using a BDD test framerwork (Cucumber).       
    
+   
+## Deployment
+  There are a few options for deployment. A relational database should be sufficient.
+  You can archive old data. If there is a need to look at historical data in realtime
+  then you can use a nosql solution. 
+  
+  ### AWS Web hosting/cloud.
+    This solution is reliable, scalable
+    
+  ### OpenShift Web hosting/cloud.
+    This solution is reliable, scalable
+ 
+  ### Oracle Cloud.
+    This solution is reliable, scalable
+
+  ### IBM Cloud.
+    This solution is reliable, scalable
+    
+  ### Azure Web hosting/cloud.
+    This solution is reliable, scalable
+ 
+  ### On-premise
+    This approach is a lot more hands-on and not as reliable or scalable. Reliability and scalability
+    can be achieved but at higher costs.
+      
+## Clients
+   You can use a variety of different clients
+   
+   ### Mobile
+   
+   ### Desktop
+   
+   ### Embedded system
    

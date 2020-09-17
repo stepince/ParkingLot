@@ -11,14 +11,4 @@ public class ParkingDeck {
     List<DisplaySign> displaySigns;
     List<ExitStation> exitStations;
 
-    List<Space> getAllSpaces(){
-        return null;
-    }
-    List<Space> getAllOpenSpaces(){
-        return null;
-    }
-    List<Space> getAllOccupiedSpaces(){
-        return null;
-    }
-
 }

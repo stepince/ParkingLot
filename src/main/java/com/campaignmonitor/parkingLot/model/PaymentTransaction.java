@@ -12,9 +12,9 @@ public class PaymentTransaction {
     int id;
 
     Date date;
-    float amount;
+    double amount;
     String currency;
     String token;
-    Employee employee;
+    Ticket ticket;
     PaymentType paymentType;
 }

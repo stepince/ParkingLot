@@ -1,6 +1,7 @@
 package com.campaignmonitor.parkingLot.service;
 
 import com.campaignmonitor.parkingLot.model.PaymentTransaction;
+import com.campaignmonitor.parkingLot.model.Ticket;
 
 import java.util.Date;
 import java.util.List;
@@ -18,6 +19,9 @@ public class PaymentService {
         return null;
     }
 
+    public PaymentTransaction findPaymentTransactionByTicket(Ticket ticket){
+        return null;
+    }
     public PaymentTransaction findPaymentTransactionById(Integer id){
         return null;
     }
@@ -34,5 +38,6 @@ public class PaymentService {
     public List<PaymentTransaction> findAllPaymentTransactionsByDates( Date to, Date from){
         return null;
     }
+
 
 }
