@@ -58,7 +58,7 @@
     can be achieved but at higher costs.
 
   ### Database
-    Oracle, Mysql, Postgres, Sqlserver
+    Oracle, Mysql
       
   ### Deployment tools
     Jenkins, Kebernetes, Docker, Nexus, Git, BitBucket
@@ -76,20 +76,20 @@
 
    ### Database
    You can use a traditional relational database as a MVP. 
-   If the data becomes large, you consider partitioning data, and also a 
+   If the data becomes too large, you can consider partitioning data, and also a 
    nosql solution. 
      
    ### Messaging
-   As a MVP I choose a simple Restful api. You can consider a Kafka solution.
-   In a Kafka solution, the "space" embedded/IOT devices can be producers that 
-   will publish to a "space" topic. You will then a Consumer app that will
-   subscribe to a "space" topic. 
+   As a MVP I choose a simple Restful api. You can consider a Kafka/NIFI solution.
+   In a Kafka/NIFI solution, the "space" embedded/IOT devices can be producers that 
+   will publish messages to a "space" topic.  You can then use apache NIFI to consume the 
+   messages from the Kafka "space" topic.
    
-     
 ## Bottlenecks
 
-   ### TPS
+   ### Database
+   TPS
    
-   ### Network traffic     
-   
+   ### Network  
+   Network traffic
    
