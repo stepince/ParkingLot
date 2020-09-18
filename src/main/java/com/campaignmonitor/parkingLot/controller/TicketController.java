@@ -2,6 +2,7 @@ package com.campaignmonitor.parkingLot.controller;
 
 import com.campaignmonitor.parkingLot.model.Ticket;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -12,6 +13,10 @@ import java.util.List;
 public class TicketController {
 
     public List<Ticket> getTickets() {
+        return null;
+    }
+
+    public List<Ticket> getTicketsByDate(Date to, Date from) {
         return null;
     }
 
