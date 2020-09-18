@@ -61,7 +61,7 @@
     Oracle, Mysql, Postgres, Sqlserver
       
   ### Deployment tools
-    Jenkins, Kebernetes, Docker, Nexus
+    Jenkins, Kebernetes, Docker, Nexus, Git, BitBucket
       
 ## Clients
    You can use a variety of different clients
