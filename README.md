@@ -93,3 +93,6 @@
    ### Network  
    Network traffic
    
+   ### Webserver
+   You can horizontally scale by using a load balancer and adding
+   more servers.
