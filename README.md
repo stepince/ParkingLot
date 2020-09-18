@@ -33,34 +33,63 @@
    
    
 ## Deployment
-  There are a few options for deployment. A relational database should be sufficient.
-  You can archive old data, or you can partition your data. 
   
-  ### AWS Web hosting/cloud.
+  ### Hosting
+    AWS Web hosting/cloud.
     This solution is reliable, scalable
     
-  ### OpenShift Web hosting/cloud.
+    OpenShift Web hosting/cloud.
     This solution is reliable, scalable
  
-  ### Oracle Cloud.
+    Google Cloud Platform.
+    This solution is reliable, scalable
+     
+    Oracle Cloud.
     This solution is reliable, scalable
 
-  ### IBM Cloud.
+    IBM Cloud.
     This solution is reliable, scalable
     
-  ### Azure Web hosting/cloud.
+    Azure Web hosting/cloud.
     This solution is reliable, scalable
  
-  ### On-premise
+    On-premise
     This approach is a lot more hands-on and not as reliable or scalable. Reliability and scalability
     can be achieved but at higher costs.
+
+  ### Database
+    Oracle, Mysql, Postgres, Sqlserver
+      
+  ### Deployment tools
+    Jenkins, Kebernetes, Docker, Nexus
       
 ## Clients
    You can use a variety of different clients
    
    ### Mobile
    
-   ### Desktop
+   ### Desktop Browser
+      
+   ### IoT embedded devices
    
-   ### Embedded system
+## Scaling
+
+   ### Database
+   You can use a traditional relational database as a MVP. 
+   If the data becomes large, you consider partitioning data, and also a 
+   nosql solution. 
+     
+   ### Messaging
+   As a MVP I choose a simple Restful api. You can consider a Kafka solution.
+   In a Kafka solution, the "space" embedded/IOT devices can be producers that 
+   will publish to a "space" topic. You will then a Consumer app that will
+   subscribe to a "space" topic. 
+   
+     
+## Bottlenecks
+
+   ### TPS
+   
+   ### Network traffic     
+   
    
